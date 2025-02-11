@@ -154,5 +154,13 @@
 
     border-radius: var(--border-radius-sm);
     padding-block: var(--space-xs);
+
+    transition-property: background-color, color;
+    transition-duration: 450ms;
+
+    &:hover {
+        background-color: var(--color-green);
+        color: var(--color-grey-700);
+    }
   }
 }
